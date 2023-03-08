@@ -81,7 +81,7 @@ const HeaderOne = ({ aboutOverlay}) => {
             </div>
 
             {/* navigation */}
-            {/* <Navigation /> */}
+            <Navigation />
 
             {/* icons */}
             <div className="header-content__icons space-pl--15">

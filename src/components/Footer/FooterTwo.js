@@ -13,7 +13,7 @@ const FooterTwo = ({ footerBgClass }) => {
           <Col className="footer-single-widget space-mb--50">
             {/* logo */}
             <div className="logo space-mb--35">
-              <img
+              {/* <img
                 src={
                   process.env.PUBLIC_URL + footerBgClass ===
                   "bg-color--blue-two"
@@ -22,14 +22,14 @@ const FooterTwo = ({ footerBgClass }) => {
                 }
                 className="img-fluid"
                 alt=""
-              />
+              /> */}
             </div>
 
             {/*=======  copyright text  =======*/}
             <div className="footer-single-widget__copyright">
               &copy; {new Date().getFullYear() + " "}
               <a href="https://www.hasthemes.com" target="_blank">
-                lezada
+                Deviant Lifestyle
               </a>
               <span>All Rights Reserved</span>
             </div>
