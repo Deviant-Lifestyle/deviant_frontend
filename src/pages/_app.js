@@ -30,7 +30,7 @@ const MyApp = ({Component, ...rest}) => {
   return (
     <Fragment>
       <Head>
-        <title>Lezada | React Next JS Multipurpose eCommerce Template</title>
+        <title>Deviant Lifestyle</title>
         <link rel="icon" href={process.env.PUBLIC_URL + "/favicon.ico"} />
       </Head>
       <style jsx global>{`

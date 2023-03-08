@@ -71,11 +71,12 @@ const HeaderOne = ({ aboutOverlay}) => {
                 <IoIosMenu />
               </button>
               <Anchor path="/">
-                  <img
+                  {/* <img
                     src={process.env.PUBLIC_URL + "/assets/images/logo.png"}
                     className="img-fluid"
                     alt=""
-                  />
+                  /> */}
+                  <h5>Deviant Lifestyle</h5>
               </Anchor>
             </div>
 

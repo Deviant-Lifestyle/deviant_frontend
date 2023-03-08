@@ -1,11 +1,14 @@
 import { useSelector } from "react-redux";
 import { getProducts } from "../lib/product";
 import { LayoutOne } from "../components/Layout";
-import { HeroSliderOne } from "../components/HeroSlider";
-import { ProductTab } from "../components/ProductTab";
-import { ImageCta } from "../components/Cta";
+import { HeroSliderTwelve } from "../components/HeroSlider";
+import { ImageSliderTwo } from "../components/ImageSlider";
+import { ConceptContent } from "../components/HomeContent";
+// import { ProductTab } from "../components/ProductTab";
+// import { ImageCta } from "../components/Cta";
 import heroSliderData from "../data/hero-sliders/hero-slider-one.json";
-import imageCtaData from "../data/image-cta/image-cta-one.json";
+import imageSliderData from "../data/image-sliders/image-slider-one.json";
+// import imageCtaData from "../data/image-cta/image-cta-one.json";
 
 const Home = () => {
   const { products } = useSelector((state) => state.product);
@@ -15,23 +18,18 @@ const Home = () => {
 
   return (
     <LayoutOne aboutOverlay={false}>
+      {/* changed to concept page */}
+
       {/* hero slider */}
-      <HeroSliderOne sliderData={heroSliderData} />
+      <HeroSliderTwelve
+            sliderData={heroSliderData}
+            spaceBottomClass="space-mb--r130"
+       />
+      {/* home content */}
+      <ConceptContent />
+      {/* image slider */}
+      <ImageSliderTwo imageSliderData={imageSliderData} />
 
-      {/* product tab */}
-      <ProductTab
-        newProducts={newProducts}
-        popularProducts={popularProducts}
-        saleProducts={saleProducts}
-      />
-
-      {/* image cta */}
-      <ImageCta
-        image={imageCtaData.image}
-        tags={imageCtaData.tags}
-        title={imageCtaData.title}
-        url={imageCtaData.url}
-      />
     </LayoutOne>
   );
 };
