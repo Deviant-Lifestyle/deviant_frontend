@@ -4,6 +4,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
+To Run development server
+```bash
+yarn install
+yarn add next react react-dom
+yarn dev
+
+```
+
 ```bash
 npm run dev
 # or
