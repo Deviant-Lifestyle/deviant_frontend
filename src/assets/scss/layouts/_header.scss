@@ -99,7 +99,7 @@ header {
     transition: $transition--default;
     animation: 700ms ease-in-out 0s normal none 1 running fadeInDown;
 
-    background-color: $white;
+    background-color: $main-bg;
     box-shadow: 0 2px 5px rgba($black, 0.2);
 
     &.topbar-shadow {
@@ -373,7 +373,7 @@ header {
             content: "";
             transition: $transition--default;
 
-            background-color: $black--two;
+            background-color: $grey--two;
           }
         }
         & > svg {
@@ -381,14 +381,14 @@ header {
 
           transition: $transition--default;
 
-          fill: $grey--eight;
+          fill: $grey--two;
         }
         &:last-child {
           margin-right: 0;
         }
         &:hover {
           & > a {
-            color: $black--two;
+            color: $grey--three;
             &:after {
               right: auto;
               left: 0;
@@ -397,7 +397,7 @@ header {
             }
           }
           & > svg {
-            fill: $black--two;
+            fill: $grey--three;
           }
 
           .sub-menu {
@@ -415,7 +415,7 @@ header {
 
       padding: 0;
 
-      color: $black--two;
+      color: $grey--two;
       border: none;
       background: none;
     }
@@ -492,7 +492,7 @@ header {
   transition: 0.6s;
 
   opacity: 0;
-  background-color: $white;
+  background-color: $main-bg;
   box-shadow: -2px 2px 81px -27px rgba($black, 0.3);
 
   &--mega {
@@ -516,7 +516,7 @@ header {
 
         margin-bottom: 20px;
 
-        color: $black--two;
+        color: $grey--two;
       }
     }
 
@@ -533,7 +533,7 @@ header {
 
           margin-bottom: 15px;
 
-          color: $grey;
+          color: $grey--four;
 
           &:after {
             position: absolute;
@@ -549,11 +549,11 @@ header {
             transition: $transition--default;
 
             opacity: 0;
-            background-color: $grey--three;
+            background-color: $grey--ten;
           }
 
           &:hover {
-            color: $black--two;
+            color: $grey--four;
             &:after {
               visibility: visible;
 

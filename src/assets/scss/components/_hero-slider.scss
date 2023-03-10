@@ -3179,7 +3179,7 @@
 				opacity: 0;
 				color: $grey--three;
 				border: none;
-				background: $white;
+				background: $theme-light-two;
 
 				svg {
 					display: none;
@@ -3213,7 +3213,7 @@
 				}
 
 				&:hover {
-					color: $black--two;
+					color: $grey--three;
 				}
 
 				&:focus {
@@ -3367,7 +3367,7 @@
 			transform: translateY(30px);
 			letter-spacing: 5px;
 
-			color: $black--two;
+			color: $grey--two;
 
 @include respond(small-desktop) {
 				font-size: 16px;
@@ -3401,7 +3401,7 @@
 
 			transform: translateY(30px);
 
-			color: $black--two;
+			color: $white;
 
 @include respond(large-desktop) {
 				font-size: 70px;
@@ -3481,7 +3481,7 @@
 		& .current {
 			transform: translateX(40px);
 
-			color: $black--two;
+			color: $grey--two;
 		}
 
 		& .border {
@@ -3494,13 +3494,13 @@
 			transform: translateX(40px);
 
 			border: none !important;
-			background-color: $black--two;
+			background-color: $grey--two;
 		}
 
 		& .total {
 			transform: translateX(40px);
 
-			color: rgba($black, 0.5);
+			color: rgba($white, 0.5);
 		}
 	}
 

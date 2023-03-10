@@ -73,7 +73,7 @@
     letter-spacing: 1px;
     text-transform: uppercase;
 
-    color: $black--two;
+    color: $grey--four;
     border-bottom: 1px solid transparent;
 
     &:hover {
@@ -91,7 +91,7 @@
 
     text-transform: none;
 
-    color: $black--two;
+    color: $grey--two;
 
 @include respond (small-mobile) {
       font-size: 25px;
