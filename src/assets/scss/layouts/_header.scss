@@ -359,7 +359,7 @@ header {
 
           margin-right: 5px;
 
-          color: $grey;
+          color: $white;
 
           &:after {
             position: absolute;
@@ -461,7 +461,8 @@ header {
           svg {
             font-size: 20px;
 
-            fill: $black--two;
+            // fill: $black--two;
+            fill: $white;
 
 @include respond(extra-large-mobile) {
               font-size: 25px;

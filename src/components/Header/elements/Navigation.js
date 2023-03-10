@@ -4,7 +4,7 @@ import Anchor from "../../anchor";
 const Navigation = () => {
   return (
     <nav className="header-content__navigation space-pr--15 space-pl--15 d-none d-lg-block">
-      <ul style={{visibility:"hidden"}}>
+      <ul>
         <li>
           <Anchor path="/">
             Home
