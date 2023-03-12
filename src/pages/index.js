@@ -17,7 +17,7 @@ const Home = () => {
   const saleProducts = getProducts(products, "decor", "sale", 9);
 
   return (
-    <LayoutOne aboutOverlay={false}>
+    <LayoutOne aboutOverlay={true}>
       {/* changed to concept page */}
 
       {/* hero slider */}
