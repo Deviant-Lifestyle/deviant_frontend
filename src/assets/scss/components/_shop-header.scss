@@ -6,7 +6,7 @@
 .shop-header {
   padding: 20px 0;
 
-  border-bottom: 1px solid $grey--sixteen;
+  border-bottom: 1px solid $blue--five;
 
   &__filter-icons {
     display: flex;
@@ -25,7 +25,7 @@
 
       &.filter-dropdown {
         select {
-          padding-bottom: 5px;
+          padding: 5px;
           padding-left: 0;
 
           cursor: pointer;
@@ -35,7 +35,7 @@
           border-right: none;
           border-bottom: 2px solid $grey--eleven;
           border-left: none;
-          border-radius: 0;
+          border-radius: 3px;
           background-color: $white;
         }
       }
@@ -47,12 +47,12 @@
           margin-right: 10px;
           padding: 0;
 
-          color: $grey--eleven;
+          color: $grey--six;
           border: none;
           background: none;
           &:hover,
           &.active {
-            color: $black--two;
+            color: $white;
           }
           &:last-child {
             margin-right: 0;
@@ -81,7 +81,7 @@
           }
           &.active,
           &:hover {
-            color: $black--two;
+            color: $grey--two;
 
             &:after {
               right: auto;

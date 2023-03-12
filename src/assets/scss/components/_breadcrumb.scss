@@ -27,7 +27,7 @@
       &:last-child {
         margin-right: 0;
 
-        color: $black--two;
+        color: $grey--two;
         &::after {
           display: none;
         }
@@ -41,7 +41,7 @@
 
     margin-bottom: 20px;
 
-    color: $black--two;
+    color: $grey--two;
 
 @include respond(extra-large-mobile) {
       font-size: 35px;

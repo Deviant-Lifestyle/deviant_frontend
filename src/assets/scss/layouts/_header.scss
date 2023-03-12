@@ -333,7 +333,7 @@ header {
       margin-right: 10px;
       padding: 0;
 
-      color: $black--two;
+      color: $white;
       border: none;
       background: none;
     }
@@ -1224,7 +1224,7 @@ header {
     transform: translateX(-100%);
 
     opacity: 0;
-    background-color: $white;
+    background-color: $main-bg;
 
     &-container {
       padding: 20px 0;
@@ -1259,7 +1259,7 @@ header {
     svg {
       font-size: 35px;
 
-      color: $black--two;
+      color: $grey--two;
     }
   }
 
@@ -1282,7 +1282,7 @@ header {
       margin-bottom: 35px;
       a {
         &:hover {
-          color: $black--two;
+          color: $grey--two;
         }
       }
     }
@@ -1293,7 +1293,7 @@ header {
 
       margin-bottom: 35px;
 
-      color: $black--two;
+      color: $grey--two;
     }
 
     .social-icons {

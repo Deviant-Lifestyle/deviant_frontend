@@ -60,7 +60,7 @@ const FullwidthLeftSidebar = () => {
       {/* breadcrumb */}
       <BreadcrumbOne
         pageTitle="Shop Full Width Left Sidebar"
-        backgroundImage="/assets/images/backgrounds/breadcrumb-bg-1.png"
+        backgroundImage="/assets/images/backgrounds/breadcrumb-bg-14.jpg"
       >
         <ul className="breadcrumb__list">
           <li>

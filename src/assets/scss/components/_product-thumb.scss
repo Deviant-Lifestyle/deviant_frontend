@@ -172,7 +172,7 @@
           transform: translateY(0);
 
           opacity: 1;
-          color: $black--two;
+          color: $white;
         }
       }
 
@@ -217,7 +217,7 @@
         font-weight: 600;
         line-height: 1;
 
-        color: $black--two;
+        color: $white;
       }
 
       .main-price {
@@ -227,7 +227,7 @@
 
         margin-right: 5px;
 
-        color: $black--two;
+        color: $white;
         &.discounted {
           font-size: 12px;
           font-weight: 600;
@@ -235,7 +235,7 @@
 
           text-decoration: line-through;
 
-          color: $grey--twelve;
+          color: $grey--five;
         }
       }
     }
@@ -380,7 +380,7 @@
     margin-bottom: 20px;
     padding-bottom: 20px;
 
-    border-bottom: 1px solid $grey--ten;
+    border-bottom: 1px solid $blue--five;
 
     &:last-child {
       margin-bottom: 0;
@@ -421,10 +421,10 @@
           font-size: 16px;
           line-height: 22px;
 
-          color: $grey;
+          color: $grey--six;
 
           &:hover {
-            color: $black--two;
+            color: $grey--two;
           }
         }
       }
@@ -437,7 +437,7 @@
 
           display: inline-block;
 
-          color: $black--two;
+          color: $grey--eleven;
         }
 
         .main-price {
@@ -449,7 +449,7 @@
 
           margin-right: 5px;
 
-          color: $black--two;
+          color: $grey--two;
           &.discounted {
             font-size: 12px;
             font-weight: 600;
@@ -457,7 +457,7 @@
 
             text-decoration: line-through;
 
-            color: $grey--twelve;
+            color: $grey--eleven;
           }
         }
       }
