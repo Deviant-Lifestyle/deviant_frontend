@@ -8,7 +8,7 @@
 
   transition: height 0.4s ease-out;
 
-  background-color: $grey--twentyFour;
+  background-color: $main-bg;
 
   .single-filter-widget {
     &__title {
@@ -17,7 +17,7 @@
 
       margin-bottom: 20px;
 
-      color: $black--two;
+      color: $grey--two;
     }
 
     &__list {
@@ -33,7 +33,7 @@
 
           &:hover,
           &.active {
-            color: $black--two;
+            color: $grey--two;
           }
         }
 
