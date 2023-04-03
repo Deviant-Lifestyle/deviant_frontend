@@ -40,6 +40,6 @@
   },
   "devDependencies": {
     "redux-devtools-extension": "^2.13.8",
-    "sass": "^1.58.3"
+    "sass": "^1.60.0"
   }
 }

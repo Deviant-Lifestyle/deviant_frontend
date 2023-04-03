@@ -16,15 +16,15 @@
 
 .single-faq {
   .accordion{
-    --bs-accordion-color: $grey--seven;
+    --bs-accordion-color: $grey--two !important;
     --bs-accordion-border-width: 0;
     --bs-accordion-border-radius: 0;
     --bs-accordion-inner-border-radius: 0;
     --bs-accordion-body-padding-x: 0;
     --bs-accordion-body-padding-y: 1rem;
-    --bs-accordion-active-color: $black--two;
-    --bs-accordion-active-bg: transparent;
-    --bs-accordion-btn-color: $black--two;
+    --bs-accordion-active-color: $white !important;
+    --bs-accordion-active-bg: $main-bg !important;
+    --bs-accordion-btn-color: $main-bg !important;
     --bs-accordion-btn-padding-x: 0;
     --bs-accordion-btn-padding-y: 1rem;
     --bs-accordion-btn-focus-border-color: transparent;

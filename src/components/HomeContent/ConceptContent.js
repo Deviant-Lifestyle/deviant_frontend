@@ -28,7 +28,7 @@ const ConceptContent = () => {
                     <img
                       src={
                         process.env.PUBLIC_URL +
-                        "/assets/images/category/category-concept-4.jpg"
+                        "/assets/images/custom/40.jpg"
                       }
                       className="img-fluid"
                       alt=""
@@ -36,7 +36,7 @@ const ConceptContent = () => {
                   </div>
                   <div className="single-category__content single-category__content--one space-mt--25 space-mb--25">
                     <div className="title title--style-two">
-                      <p>Women</p>
+                      <p>Lingerie & Apparel</p>
                       <Anchor path="/shop/left-sidebar">
                         + Online store
                       </Anchor>
@@ -52,7 +52,7 @@ const ConceptContent = () => {
                     <img
                       src={
                         process.env.PUBLIC_URL +
-                        "/assets/images/category/category-concept-3.jpg"
+                        "/assets/images/custom/11.jpg"
                       }
                       className="img-fluid"
                       alt=""
@@ -60,7 +60,7 @@ const ConceptContent = () => {
                   </div>
                   <div className="single-category__content single-category__content--one space-mt--25 space-mb--25">
                     <div className="title title--style-two">
-                      <p>Bags</p>
+                      <p>Sexual Enhancers</p>
                       <Anchor path="/shop/left-sidebar">
                         + Online store
                       </Anchor>
@@ -76,7 +76,7 @@ const ConceptContent = () => {
                     <img
                       src={
                         process.env.PUBLIC_URL +
-                        "/assets/images/category/category-concept-1.jpg"
+                        "/assets/images/custom/27.jpg"
                       }
                       className="img-fluid"
                       alt=""
@@ -84,7 +84,7 @@ const ConceptContent = () => {
                   </div>
                   <div className="single-category__content single-category__content--one space-mt--25 space-mb--25">
                     <div className="title title--style-two">
-                      <p>Men</p>
+                      <p>Lubricants</p>
                       <Anchor path="/shop/left-sidebar">
                         + Online store
                       </Anchor>
@@ -104,7 +104,7 @@ const ConceptContent = () => {
                     <img
                       src={
                         process.env.PUBLIC_URL +
-                        "/assets/images/category/category-shoes.jpg"
+                        "/assets/images/custom/16.jpg"
                       }
                       className="img-fluid"
                       alt=""
@@ -112,7 +112,7 @@ const ConceptContent = () => {
                   </div>
                   <div className="single-category__content single-category__content--one space-mt--25 space-mb--25">
                     <div className="title title--style-two">
-                      <p>Shoes</p>
+                      <p>Sex Toys</p>
                       <Anchor path="/shop/left-sidebar">
                         + Online store
                       </Anchor>
@@ -129,7 +129,7 @@ const ConceptContent = () => {
                     style={{
                       backgroundImage: `url(${
                         process.env.PUBLIC_URL +
-                        "/assets/images/banners/banner-concept.jpg"
+                        "/assets/images/custom/33.jpg"
                       })`
                     }}
                   >
@@ -149,7 +149,7 @@ const ConceptContent = () => {
                     <img
                       src={
                         process.env.PUBLIC_URL +
-                        "/assets/images/category/category-concept-2.jpg"
+                        "/assets/images/custom/25.jpg"
                       }
                       className="img-fluid"
                       alt=""
@@ -157,7 +157,7 @@ const ConceptContent = () => {
                   </div>
                   <div className="single-category__content single-category__content--one space-mt--25 space-mb--25">
                     <div className="title title--style-two">
-                      <p>Sunglasses</p>
+                      <p>Party Supplies</p>
                       <Anchor path="/shop/left-sidebar">
                         + Online store
                       </Anchor>
