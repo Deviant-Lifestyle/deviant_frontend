@@ -18400,10 +18400,10 @@ header.is-sticky .multilevel-header__bottom .col-lg-12 {
 .hero-slider-twelve__content .slider-link a {
   font-size: 24px;
   font-weight: 500;
-  color: #d3122a;
+  color: #1e73be;
 }
 .hero-slider-twelve__content .slider-link a:hover {
-  color: #333;
+  color: #d6d6d6;
 }
 .hero-slider-twelve__pagination {
   font-size: 56px;
@@ -21209,7 +21209,7 @@ header.is-sticky .multilevel-header__bottom .col-lg-12 {
   transition-duration: 0.6s;
   transform: translateY(60%);
   opacity: 0;
-  color: #d3122a;
+  color: #1e73be;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1499px) {
   .single-category__content .title a {

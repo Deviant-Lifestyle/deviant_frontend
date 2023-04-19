@@ -46,7 +46,7 @@ const ImageSliderTwo = ({ imageSliderData }) => {
           </Col>
           <Col lg={4} className="order-1 order-lg-2">
             <div className="image-slider-text">
-              <a href="#">@lezada_shop</a>
+              <a href="#">@Deviant_lifestyle</a>
 
               <h3>Follow us on Instagram</h3>
             </div>

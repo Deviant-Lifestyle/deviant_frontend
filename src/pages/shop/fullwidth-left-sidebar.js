@@ -59,7 +59,7 @@ const FullwidthLeftSidebar = () => {
     <LayoutTwo>
       {/* breadcrumb */}
       <BreadcrumbOne
-        pageTitle="Shop Full Width Left Sidebar"
+        pageTitle="Explore most rated products"
         backgroundImage="/assets/images/backgrounds/breadcrumb-bg-14.jpg"
       >
         <ul className="breadcrumb__list">
@@ -69,7 +69,7 @@ const FullwidthLeftSidebar = () => {
             </Anchor>
           </li>
 
-          <li>Shop Full Width Left Sidebar</li>
+          <li>Shop Products</li>
         </ul>
       </BreadcrumbOne>
       <div className="shop-page-content">
